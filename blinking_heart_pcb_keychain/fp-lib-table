@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "blinking_heart_pcb_keychain_footprints") (type "KiCad") (uri "${KIPRJMOD}/blinking_heart_pcb_keychain_footprints.pretty") (options "") (descr ""))
+	(lib (name "blinking_heart_pcb_keychain_footprints") (type "KiCad") (uri "${KIPRJMOD}/blinking_heart_pcb_keychain_footprints.pretty") (options "") (descr ""))
+)
