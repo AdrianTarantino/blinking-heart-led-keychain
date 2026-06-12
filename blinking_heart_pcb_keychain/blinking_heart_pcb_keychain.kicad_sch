@@ -651,7 +651,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "blinking_heart_pcb_keychain_footprints:NE555P"
 			(at 139.7 87.63 0)
 			(hide yes)
 			(show_name no)
