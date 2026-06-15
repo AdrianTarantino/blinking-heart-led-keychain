@@ -126,152 +126,6 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "blinking_heart_pcb_keychain_footprints:VR_5V"
-		(layer "F.Cu")
-		(uuid "0226befc-7308-4d65-9c49-0634216989c0")
-		(at 196.9 59.51395)
-		(property "Reference" "VR1"
-			(at 5.2 5.975 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "c0b306aa-9417-4235-a8e3-15b3743a6a9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 5.2 7.475 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "ac571e8c-8109-40a2-8750-c4f33d283357")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf"
-			(at 7.5 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "120aeaab-364b-493c-bce0-a7e83b692ecc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Voltage regulator 5V"
-			(at 7.5 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db1f14e8-273d-46bc-a8aa-0cddd60cfd56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" "https://www.digikey.ca/short/fwh95vp4"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6503f87c-39c2-46d4-800d-927925450bee")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/966d22cb-a005-48cd-8ff0-a3169e8c05fb")
-		(sheetname "/")
-		(sheetfile "blinking_heart_pcb_keychain.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start 0 0)
-			(end 10.4 15.75)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "b722c889-208e-4452-92ac-6ab7d28d3730")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.2 8.975 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "df648538-92e8-421d-a62b-2f129f998b5e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 5.2 2.8 90)
-			(size 6 6)
-			(drill 3.85)
-			(layers "*.Cu" "*.Mask")
-			(uuid "8cf2237a-b049-4751-a589-532c1802a754")
-		)
-		(pad "1" thru_hole roundrect
-			(at 2.5 21.722101 90)
-			(size 3 1.2)
-			(drill 0.91)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.08333333333)
-			(net "GND")
-			(pinfunction "GND_1")
-			(pintype "passive")
-			(uuid "a0f9ee29-a930-4182-a6fa-c7601fcbe3aa")
-		)
-		(pad "2" thru_hole roundrect
-			(at 5.2 21.71 90)
-			(size 3 1.2)
-			(drill 0.91)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.08333333333)
-			(net "+5V")
-			(pinfunction "VOUT_2")
-			(pintype "passive")
-			(uuid "da6a2b64-87f1-44de-b584-e87cfe77f83f")
-		)
-		(pad "3" thru_hole roundrect
-			(at 7.9 21.71 90)
-			(size 3 1.2)
-			(drill 0.91)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(roundrect_rratio 0.08333333333)
-			(net "Net-(VR1-VIN)")
-			(pinfunction "VIN_3")
-			(pintype "passive")
-			(uuid "1eba41ed-8085-44b6-9e8e-d3249d42a7ab")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "0a5f4cd2-68e4-4f25-bf25-a097889f1bcd")
@@ -381,7 +235,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "125f0714-9fa0-4272-b39e-e82307546e7e")
-		(at 227.77 92.46)
+		(at 267.0415 116.79)
 		(property "Reference" "R5"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -506,7 +360,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "16ee66ff-c074-4419-b809-0a371edf3805")
-		(at 227.77 86.86)
+		(at 267.0415 111.19)
 		(property "Reference" "R3"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -631,12 +485,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "1a0a634b-5aaa-45fe-a8de-9409c81183c4")
-		(at 135.27 59.5)
+		(at 107.5 70.23 90)
 		(property "Reference" "D7"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "5a000bdc-0ab4-41f4-bdcf-7e70976f7252")
+			(uuid "45a4b375-3301-47cd-809c-67f1cc42a67d")
 			(effects
 				(font
 					(size 1 1)
@@ -645,10 +499,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "89044278-24e9-439b-8ff5-a7ae6edb2b91")
+			(uuid "75435bf3-4e35-4c14-8563-c755846e0500")
 			(effects
 				(font
 					(size 1 1)
@@ -657,11 +511,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea0896f8-d880-4106-bc1e-c3bd85b95b43")
+			(uuid "156e2d9b-c333-436a-a412-c5e91b8de797")
 			(effects
 				(font
 					(size 1 1)
@@ -670,11 +524,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa3f9c28-9433-45ac-8ddc-68e086f133cd")
+			(uuid "891f67ef-7919-4347-a7dd-0c716f3da770")
 			(effects
 				(font
 					(size 1 1)
@@ -735,7 +589,7 @@
 			(uuid "979db85d-c960-4691-9637-bcf70ecb4566")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "776706d0-df8b-4af1-a056-a78cb37b8748")
@@ -747,7 +601,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -758,7 +612,7 @@
 			(uuid "795ce5ad-d2b4-404e-9861-58f455bb67bf")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -773,12 +627,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "1cfb8538-ac61-4a1b-af4f-0b9e7706f4be")
-		(at 117.77 89)
+		(at 145.5 89.73 90)
 		(property "Reference" "D2"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6e7490ce-4c88-4d60-84b5-54eee7f047b2")
+			(uuid "a3a75b04-e6a4-40c5-9927-678547593c89")
 			(effects
 				(font
 					(size 1 1)
@@ -787,10 +641,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0.07386 3.4 0)
+			(at 0.07386 3.4 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "35da78c9-691e-40d5-816d-0060fca3fefd")
+			(uuid "25b1ad44-a7b0-49d6-b7cf-8a05b68669b8")
 			(effects
 				(font
 					(size 1 1)
@@ -799,11 +653,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "084e3f31-8db4-4ab7-aa77-23584230a277")
+			(uuid "8c2fe864-b0fc-4870-b08f-646d7ff44230")
 			(effects
 				(font
 					(size 1 1)
@@ -812,11 +666,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d107366-5afd-4cd7-80fc-b226c1d7c13d")
+			(uuid "008cb938-f1ed-4cca-a14f-935e6562fc35")
 			(effects
 				(font
 					(size 1 1)
@@ -877,7 +731,7 @@
 			(uuid "ffd090a9-3ba6-4af7-886c-1b93765053c7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a476b96a-3b74-4818-8ec9-a974ab7eff1d")
@@ -889,7 +743,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -900,7 +754,7 @@
 			(uuid "d05446c0-a0f7-4147-a6f7-ec11340bd094")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -915,7 +769,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "22537021-a814-4aac-bb8c-58c2f9f5eb54")
-		(at 227.77 112.06)
+		(at 267.0415 136.39)
 		(property "Reference" "R12"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -1040,7 +894,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:C_THT_100uF"
 		(layer "F.Cu")
 		(uuid "227e84f8-9426-4f6c-bb4e-3a303e71399f")
-		(at 235.91 99.61)
+		(at 275.1815 123.94)
 		(property "Reference" "C1"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -1165,12 +1019,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "30a0aee4-b215-43aa-8c6c-45d62026de00")
-		(at 144.27 78)
+		(at 130.5 59.73 90)
 		(property "Reference" "D9"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ecc91f38-cfaf-4969-9b2c-a152f0a94cc1")
+			(uuid "c22210e2-6003-4b97-89c8-551ee91c4ee7")
 			(effects
 				(font
 					(size 1 1)
@@ -1179,10 +1033,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6ca895fd-b727-4eb6-a4f7-e0cba107f2fe")
+			(uuid "cdb83583-0347-46bb-b677-0b620ca4b6a6")
 			(effects
 				(font
 					(size 1 1)
@@ -1191,11 +1045,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28229eb2-e632-421e-b21f-6b736db7dca4")
+			(uuid "4989bdb3-134d-4657-a7e9-df016cc6a4ee")
 			(effects
 				(font
 					(size 1 1)
@@ -1204,11 +1058,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a8286e1-fbf6-4fb4-a938-ea1529b827e1")
+			(uuid "30d7366a-1042-432c-ad69-d170498b304c")
 			(effects
 				(font
 					(size 1 1)
@@ -1268,7 +1122,7 @@
 			(uuid "75eb6d51-173d-434e-96df-b7e68d7112e4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a9e5e4b9-3804-477b-9b02-d4540d38d75d")
@@ -1280,7 +1134,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1291,7 +1145,7 @@
 			(uuid "1d6f51f4-ef9b-40c0-962b-a409524e58b1")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1306,12 +1160,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:CD4017BE"
 		(layer "F.Cu")
 		(uuid "366635f0-8118-4e40-be18-0b7926d65b1d")
-		(at 234.0385 78.615)
+		(at 165.15 98.08 180)
 		(property "Reference" "U2"
-			(at 0 -1.27 0)
+			(at 0 -1.27 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "960fbdff-0f85-4d3d-a403-e541c5cf5733")
+			(uuid "cf35ec0d-5b28-4794-88c0-ea4cde71ccc5")
 			(effects
 				(font
 					(size 1 1)
@@ -1320,10 +1174,10 @@
 			)
 		)
 		(property "Value" "CD4017BE"
-			(at 0 0.23 0)
+			(at 0 0.23 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c48be06b-891b-483b-b295-fe1f0e6fb73f")
+			(uuid "b41cd426-d66b-4db0-b87a-7f36f5cb2335")
 			(effects
 				(font
 					(size 1 1)
@@ -1332,11 +1186,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://cd4017b.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "190e9cd9-c390-44b5-a048-f60c6955c6cd")
+			(uuid "00eca85e-aeb6-4e7a-b9b0-26d67fe8aad4")
 			(effects
 				(font
 					(size 1 1)
@@ -1345,11 +1199,11 @@
 			)
 		)
 		(property "Description" "CD4017BE Decade counter"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "09f6e5cf-c4fe-46b8-b837-442c8cc54be9")
+			(uuid "a6ceef96-b5d0-4d42-ba1d-61134ebeb301")
 			(effects
 				(font
 					(size 1 1)
@@ -1382,7 +1236,7 @@
 			(uuid "4e0c165f-689b-46bf-b5a4-8f4e10de54bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.73 0)
+			(at 0 1.73 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fbdab979-fc18-400a-bf32-c329b7614ac2")
@@ -1394,7 +1248,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -8.89 5.08 90)
+			(at -8.89 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1406,7 +1260,7 @@
 			(uuid "e24c9369-d9e4-4ba7-a988-513de81b509b")
 		)
 		(pad "2" thru_hole roundrect
-			(at -6.35 5.08 90)
+			(at -6.35 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1418,7 +1272,7 @@
 			(uuid "33678804-13ab-43f1-9cb7-8c5a1efdacbd")
 		)
 		(pad "3" thru_hole roundrect
-			(at -3.81 5.08 90)
+			(at -3.81 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1430,7 +1284,7 @@
 			(uuid "fc8c6722-ae7b-4cc4-a24f-af999dad65f7")
 		)
 		(pad "4" thru_hole roundrect
-			(at -1.27 5.08 90)
+			(at -1.27 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1442,7 +1296,7 @@
 			(uuid "c4b41aca-d564-4861-827d-24fcefd1624c")
 		)
 		(pad "5" thru_hole roundrect
-			(at 1.27 5.08 90)
+			(at 1.27 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1454,7 +1308,7 @@
 			(uuid "a65a2303-56df-4e0e-b332-9a32fdffaf4d")
 		)
 		(pad "6" thru_hole roundrect
-			(at 3.81 5.08 90)
+			(at 3.81 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1466,7 +1320,7 @@
 			(uuid "cd112219-e36f-43be-8f92-c322837e0b3d")
 		)
 		(pad "7" thru_hole roundrect
-			(at 6.35 5.08 90)
+			(at 6.35 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1478,7 +1332,7 @@
 			(uuid "738bf1c1-cd7b-44fe-ab82-b5fee2d817f8")
 		)
 		(pad "8" thru_hole roundrect
-			(at 8.89 5.08 90)
+			(at 8.89 5.08 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1490,7 +1344,7 @@
 			(uuid "551fe746-bc38-4e04-8216-74253e1bc7c3")
 		)
 		(pad "9" thru_hole roundrect
-			(at 8.89 -4.445 90)
+			(at 8.89 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1502,7 +1356,7 @@
 			(uuid "a64deb20-30b6-4687-a2dc-bf4acd8dd4e6")
 		)
 		(pad "10" thru_hole roundrect
-			(at 6.35 -4.445 90)
+			(at 6.35 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1514,7 +1368,7 @@
 			(uuid "ed43d9c4-7661-4469-babf-74dbabca7d66")
 		)
 		(pad "11" thru_hole roundrect
-			(at 3.81 -4.445 90)
+			(at 3.81 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1526,7 +1380,7 @@
 			(uuid "1a7983e5-5dff-49b5-9eb5-32b2e184c3d1")
 		)
 		(pad "12" thru_hole roundrect
-			(at 1.27 -4.445 90)
+			(at 1.27 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1538,7 +1392,7 @@
 			(uuid "fa78d518-766f-429e-a577-1fcf3fb2f4d2")
 		)
 		(pad "13" thru_hole roundrect
-			(at -1.27 -4.445 90)
+			(at -1.27 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1550,7 +1404,7 @@
 			(uuid "97883655-b9d6-4d68-8989-32f8fb35af22")
 		)
 		(pad "14" thru_hole roundrect
-			(at -3.81 -4.445 90)
+			(at -3.81 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1562,7 +1416,7 @@
 			(uuid "dbf8b8cd-dbb5-4197-a621-c3fc21ece873")
 		)
 		(pad "15" thru_hole roundrect
-			(at -6.35 -4.445 90)
+			(at -6.35 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1574,7 +1428,7 @@
 			(uuid "b8b1d7cf-3831-4f7e-b39c-6f1d57421b89")
 		)
 		(pad "16" thru_hole roundrect
-			(at -8.89 -4.445 90)
+			(at -8.89 -4.445 270)
 			(size 2.54 1.27)
 			(drill 0.56)
 			(layers "*.Cu" "*.Mask")
@@ -1590,12 +1444,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "383fc20e-58ec-4dfa-befc-bc9e6b49bcf1")
-		(at 119.73 59.5)
+		(at 107.5 85.77 90)
 		(property "Reference" "D5"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a28aeeae-666b-46f4-8202-6f513cb20c41")
+			(uuid "fff0f7ae-5a00-4075-8b95-5f0a1b79c028")
 			(effects
 				(font
 					(size 1 1)
@@ -1604,10 +1458,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e3e0279b-249e-4f3e-8479-ef0bb4550df1")
+			(uuid "da3a0542-5d0f-40ef-b4f6-b8d66a33e8d1")
 			(effects
 				(font
 					(size 1 1)
@@ -1616,11 +1470,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a0f4905a-83c7-4f56-83d6-657e63c418ef")
+			(uuid "08c581b5-f207-4e16-b69b-0554f7ffee86")
 			(effects
 				(font
 					(size 1 1)
@@ -1629,11 +1483,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92a8a226-70f4-4393-b543-b02d6f80e11f")
+			(uuid "2bd90faf-83df-4a01-b0bf-da101272898f")
 			(effects
 				(font
 					(size 1 1)
@@ -1694,7 +1548,7 @@
 			(uuid "c2f9491b-593f-4541-a57d-4bc1461e2257")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6fa1824f-3eed-4b92-ab05-ed762346f39f")
@@ -1706,7 +1560,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1717,7 +1571,7 @@
 			(uuid "babe8a37-ec26-48e5-87c7-71dfa5271a3d")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1732,12 +1586,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "3e05b6db-adde-4e0c-962c-76c2735f6701")
-		(at 110.73 78)
+		(at 130.5 95.77 90)
 		(property "Reference" "D3"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1729434a-3f9f-4746-8168-4ab9dfce60a5")
+			(uuid "a2843ea2-12d6-4b06-a3f7-efb6b2b56318")
 			(effects
 				(font
 					(size 1 1)
@@ -1746,10 +1600,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "26e90fe3-3ea7-4758-a286-f783af5ab791")
+			(uuid "6b946f66-fadf-4063-a6f0-a1d52c88c9c9")
 			(effects
 				(font
 					(size 1 1)
@@ -1758,11 +1612,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c26fea1-9960-4a7e-b918-796fec7d165b")
+			(uuid "84c5f9f3-19a3-49bd-968e-31c8c2894ab6")
 			(effects
 				(font
 					(size 1 1)
@@ -1771,11 +1625,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f8ed2b1-9e33-4558-a566-3c498cf93cf0")
+			(uuid "de6f5c23-e1fc-4294-b497-4922d01eaeea")
 			(effects
 				(font
 					(size 1 1)
@@ -1836,7 +1690,7 @@
 			(uuid "f913eee3-cf1e-432f-a9df-c24ddc6dab85")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "94d70f0d-650a-422a-b65c-9d7e551c89c6")
@@ -1848,7 +1702,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1859,7 +1713,7 @@
 			(uuid "384aaac0-9a7b-498f-9037-6af04f14ac2c")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1874,12 +1728,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:NE555P"
 		(layer "F.Cu")
 		(uuid "431ec093-7fc6-455e-aca5-fc06ea067191")
-		(at 237.385 91.525)
+		(at 164 55.5 180)
 		(property "Reference" "U1"
-			(at 0.08 -1.5 0)
+			(at 0.08 -1.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "ae4cae73-7f15-4ef8-b792-0b792ca01ff0")
+			(uuid "9abb32ef-95f1-4e31-8114-6b3173edbed2")
 			(effects
 				(font
 					(size 1 1)
@@ -1888,10 +1742,10 @@
 			)
 		)
 		(property "Value" "NE555"
-			(at 0.08 0 0)
+			(at 0.08 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1f96d1be-9141-4a81-b5ea-c5b1cd43c8a0")
+			(uuid "ccc7b448-592e-4c47-ac99-36b39fbde7d2")
 			(effects
 				(font
 					(size 1 1)
@@ -1900,11 +1754,11 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ne555.pdf?ts=1781207897401&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FNE555%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dti-null-null-xref-cpc-pf-google-ww_en_cons%2526utm_content%253Dxref%2526ds_k%253DNE555%2526dcm%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D23167718368%2526gclid%253DCjwKCAjwuanRBhBSEiwAY5y6V_b_XxD-7FerrP9jXg1AFo7arJjMCd6kwToztYsedyvqSUgl6gWG0hoCLogQAvD_BwE"
-			(at -5 -3 0)
+			(at -5 -3 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf55cabf-ffa5-475d-a13e-5a4c8e92c58a")
+			(uuid "8be886f4-ba86-42fc-bc1c-163578212f25")
 			(effects
 				(font
 					(size 1 1)
@@ -1913,11 +1767,11 @@
 			)
 		)
 		(property "Description" "xx555 Precision Timer"
-			(at -5 -3 0)
+			(at -5 -3 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4353bff9-d6b9-487c-92be-62f863690392")
+			(uuid "6d10b4ea-9561-40b6-8f8c-0652089f5bf8")
 			(effects
 				(font
 					(size 1 1)
@@ -1926,7 +1780,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/short/58z8bnmq"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1950,34 +1804,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -5 -2.5)
-			(end -5 -1.25)
+			(start 5.28 2)
+			(end 5.28 -2.5)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "274832d6-7f7c-42e8-9262-350be70b22d0")
-		)
-		(fp_line
-			(start -5 0.75)
-			(end -5 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b0efc5b9-d18e-4a5c-8c3a-78634e15ecae")
-		)
-		(fp_line
-			(start -5 2)
-			(end 5.28 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "361232f3-03ab-412c-976b-6bd8f395f2dc")
+			(uuid "94b026c0-7801-43ac-b4d8-ece5219a5d8c")
 		)
 		(fp_line
 			(start 5.28 -2.5)
@@ -1990,14 +1824,34 @@
 			(uuid "fffc297f-4182-411b-b2fb-f7d4be264d56")
 		)
 		(fp_line
-			(start 5.28 2)
-			(end 5.28 -2.5)
+			(start -5 2)
+			(end 5.28 2)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "94b026c0-7801-43ac-b4d8-ece5219a5d8c")
+			(uuid "361232f3-03ab-412c-976b-6bd8f395f2dc")
+		)
+		(fp_line
+			(start -5 0.75)
+			(end -5 2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b0efc5b9-d18e-4a5c-8c3a-78634e15ecae")
+		)
+		(fp_line
+			(start -5 -2.5)
+			(end -5 -1.25)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "274832d6-7f7c-42e8-9262-350be70b22d0")
 		)
 		(fp_arc
 			(start -5 -1.25)
@@ -2011,24 +1865,14 @@
 			(uuid "628c555e-c508-4535-9b2d-894a44c8d95b")
 		)
 		(fp_line
-			(start -5.22 -5.54)
-			(end -5.22 5.01)
+			(start 5.48 5.01)
+			(end 5.48 -5.54)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "447ffb3e-333b-41a7-8db7-b61c060a2425")
-		)
-		(fp_line
-			(start -5.22 5.01)
-			(end 5.48 5.01)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fb9bf3be-db17-4013-a80c-48d0fcd67909")
+			(uuid "3a2ba5e4-bf2a-40d4-97f0-5a61ae523e82")
 		)
 		(fp_line
 			(start 5.48 -5.54)
@@ -2041,44 +1885,34 @@
 			(uuid "5ecc6a7f-9b71-476f-bf2d-f0587e458f79")
 		)
 		(fp_line
-			(start 5.48 5.01)
-			(end 5.48 -5.54)
+			(start -5.22 5.01)
+			(end 5.48 5.01)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3a2ba5e4-bf2a-40d4-97f0-5a61ae523e82")
+			(uuid "fb9bf3be-db17-4013-a80c-48d0fcd67909")
 		)
 		(fp_line
-			(start -4.94 -3.5)
-			(end 5.22 -3.5)
+			(start -5.22 -5.54)
+			(end -5.22 5.01)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "447ffb3e-333b-41a7-8db7-b61c060a2425")
+		)
+		(fp_line
+			(start 5.22 2.925)
+			(end -3.94 2.925)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e0fb99aa-e71a-4cd5-80b6-a5b2eab0a6a4")
-		)
-		(fp_line
-			(start -4.94 1.925)
-			(end -4.94 -3.425)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7ece39a0-1f93-4d20-a5f1-056273896c20")
-		)
-		(fp_line
-			(start -3.94 2.925)
-			(end -4.94 1.925)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "805ae8d4-4a78-45fd-8b89-c182a319eb1e")
+			(uuid "29330e3f-103b-4e2a-a19b-32a4fa6e9535")
 		)
 		(fp_line
 			(start 5.22 -3.425)
@@ -2091,17 +1925,37 @@
 			(uuid "81952ed4-4034-484e-aae7-9f035f291fe7")
 		)
 		(fp_line
-			(start 5.22 2.925)
-			(end -3.94 2.925)
+			(start -3.94 2.925)
+			(end -4.94 1.925)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "29330e3f-103b-4e2a-a19b-32a4fa6e9535")
+			(uuid "805ae8d4-4a78-45fd-8b89-c182a319eb1e")
+		)
+		(fp_line
+			(start -4.94 1.925)
+			(end -4.94 -3.425)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ece39a0-1f93-4d20-a5f1-056273896c20")
+		)
+		(fp_line
+			(start -4.94 -3.5)
+			(end 5.22 -3.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e0fb99aa-e71a-4cd5-80b6-a5b2eab0a6a4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.08 1.5 0)
+			(at 0.08 1.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "590b3392-2a1e-406c-92e1-6487c67295e9")
@@ -2113,7 +1967,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.08 1.5 0)
+			(at 0.08 1.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f8b1b626-00e3-4fdf-b345-d34d89047702")
@@ -2125,7 +1979,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -3.67 3.56 90)
+			(at -3.67 3.56 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2136,7 +1990,7 @@
 			(uuid "cdcee40d-c5d9-40dc-9f92-7901f5d488a5")
 		)
 		(pad "2" thru_hole oval
-			(at -1.13 3.56 90)
+			(at -1.13 3.56 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2147,7 +2001,7 @@
 			(uuid "98943e3b-d27f-4f4d-b965-3c1eb5385dea")
 		)
 		(pad "3" thru_hole oval
-			(at 1.41 3.56 90)
+			(at 1.41 3.56 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2158,7 +2012,7 @@
 			(uuid "87fe8a24-2486-45bc-acd8-e4140300ab4d")
 		)
 		(pad "4" thru_hole oval
-			(at 3.95 3.56 90)
+			(at 3.95 3.56 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2169,7 +2023,7 @@
 			(uuid "4f979840-16cb-4646-a042-b4eb9d2a79c2")
 		)
 		(pad "5" thru_hole oval
-			(at 3.95 -4.06 90)
+			(at 3.95 -4.06 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2180,7 +2034,7 @@
 			(uuid "aed6ddfa-faee-418e-9185-723385b39681")
 		)
 		(pad "6" thru_hole oval
-			(at 1.41 -4.06 90)
+			(at 1.41 -4.06 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2191,7 +2045,7 @@
 			(uuid "13521c85-811f-4ec4-8b59-236977cc4cbc")
 		)
 		(pad "7" thru_hole oval
-			(at -1.13 -4.06 90)
+			(at -1.13 -4.06 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2202,7 +2056,7 @@
 			(uuid "617956e4-16bc-4c43-b63b-3647da34e573")
 		)
 		(pad "8" thru_hole oval
-			(at -3.67 -4.06 90)
+			(at -3.67 -4.06 270)
 			(size 2.4 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2217,12 +2071,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "449e861a-b844-4c72-a2db-68ecee743e12")
-		(at 108.73 65.5)
+		(at 116 94.77 90)
 		(property "Reference" "D4"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "9e23ef27-48bc-4325-841b-bdf4b5ce3f86")
+			(uuid "59f8b902-39ea-4ba1-b41c-cb7bbeb74c07")
 			(effects
 				(font
 					(size 1 1)
@@ -2231,10 +2085,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "13a0cf8d-d0cb-4637-8a7f-0a3271dcffb5")
+			(uuid "f40d6604-e68c-4f2e-859a-a9de2d2fc0e0")
 			(effects
 				(font
 					(size 1 1)
@@ -2243,11 +2097,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc263b4e-b8ad-4bfa-a94a-946a4cef78e7")
+			(uuid "6efb3b63-eb32-49a8-b156-a02610d9e617")
 			(effects
 				(font
 					(size 1 1)
@@ -2256,11 +2110,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a81ce797-e72a-4e90-af60-b6fb0be2ff1c")
+			(uuid "88401c5f-3811-4572-b15c-9d42da29e50c")
 			(effects
 				(font
 					(size 1 1)
@@ -2321,7 +2175,7 @@
 			(uuid "11ac679d-ed94-45ad-a824-0ecec00f9976")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "160c8578-3309-4087-9a28-2a81579507d6")
@@ -2333,7 +2187,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -2344,7 +2198,7 @@
 			(uuid "5af1a4bb-f23c-486b-9345-bfcbebc65f14")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -2359,7 +2213,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "53470f08-004b-4240-a33d-a415c0332df7")
-		(at 227.77 100.86)
+		(at 267.0415 125.19)
 		(property "Reference" "R8"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -2484,7 +2338,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "609750aa-54a1-4b96-a438-e4bcd4c169a6")
-		(at 227.77 89.66)
+		(at 267.0415 113.99)
 		(property "Reference" "R4"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -2609,7 +2463,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "6db3a930-972d-4f41-ad37-9e86528406eb")
-		(at 149.5 55.5)
+		(at 194.5 55.5)
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3")
 		(property "Reference" "REF**"
@@ -2715,7 +2569,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "7887ee29-a4d8-4456-a3b8-2c42bef8c889")
-		(at 227.77 98.06)
+		(at 267.0415 122.39)
 		(property "Reference" "R7"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -2840,9 +2694,9 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R THT 1KΩ"
 		(layer "F.Cu")
 		(uuid "82d02001-d9ec-42a8-92b3-de386bb172d7")
-		(at 217.22 102.27)
+		(at 217.5 77.95 180)
 		(property "Reference" "R2"
-			(at 0.5 0 0)
+			(at 0.5 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d78fa555-da6e-44ad-8784-a713816d4941")
@@ -2854,7 +2708,7 @@
 			)
 		)
 		(property "Value" "6.8KΩ"
-			(at 0.5 1.5 0)
+			(at 0.5 1.5 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "bb1da4fc-67e7-4178-9e55-5db3832a1116")
@@ -2866,7 +2720,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://ENG_DS_1773241_J.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2879,7 +2733,7 @@
 			)
 		)
 		(property "Description" "Resistor THT 6.8KΩ"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2892,7 +2746,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/short/00njnm1z"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2927,7 +2781,7 @@
 			(uuid "7d3f3c12-3898-4eaf-b2a9-e85c94349e6c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.5 3 0)
+			(at 0.5 3 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a1247ff4-89e2-4157-a12c-d1576391fe45")
@@ -2939,7 +2793,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -3.25 0)
+			(at -3.25 0 180)
 			(size 2.54 1.27)
 			(drill 0.57)
 			(layers "*.Cu" "*.Mask")
@@ -2950,7 +2804,7 @@
 			(uuid "978e24a6-aeae-45ee-96a8-aaaefe3156db")
 		)
 		(pad "2" thru_hole roundrect
-			(at 3.25 0)
+			(at 3.25 0 180)
 			(size 2.54 1.27)
 			(drill 0.57)
 			(layers "*.Cu" "*.Mask")
@@ -2965,7 +2819,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "8af9f08c-80be-4314-a425-1838b3bcbb8f")
-		(at 227.77 109.26)
+		(at 267.0415 133.59)
 		(property "Reference" "R11"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -3090,7 +2944,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:C_THT_100uF"
 		(layer "F.Cu")
 		(uuid "8e9c3965-529e-4883-8359-36997c5318a3")
-		(at 235.91 109.81)
+		(at 275.1815 134.14)
 		(property "Reference" "C4"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -3215,7 +3069,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "9247bd38-ceb1-4f77-94eb-57076c9931b9")
-		(at 227.77 103.66)
+		(at 267.0415 127.99)
 		(property "Reference" "R9"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -3340,9 +3194,9 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:C_THT_100uF"
 		(layer "F.Cu")
 		(uuid "93e76431-becc-4f0c-ae26-bc8e35a2454a")
-		(at 235.91 104.71)
+		(at 171 77.5 -90)
 		(property "Reference" "C3"
-			(at 0 -0.5 0)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "ddd6bc96-b91b-4c4e-ae2d-0623bb46f106")
@@ -3354,7 +3208,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 0 1 0)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "431e35db-2dd1-42fc-ae9e-b490d06ccec7")
@@ -3366,7 +3220,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://leadmlcc_conventional_fk_en.pdf"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3379,7 +3233,7 @@
 			)
 		)
 		(property "Description" "Capacitor Ceramic THT 100uF"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3392,7 +3246,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/short/wdnd02zt"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3427,7 +3281,7 @@
 			(uuid "d50982bd-e4e7-41ba-8acb-a24208c7af47")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "5f6f5308-073b-4709-acdf-55246b984536")
@@ -3439,7 +3293,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.5 0)
+			(at -2.5 0 270)
 			(size 2.54 1.27)
 			(drill 0.63)
 			(layers "*.Cu" "*.Mask")
@@ -3450,7 +3304,7 @@
 			(uuid "7a0167e4-4261-421c-a693-dfd01fd7e3df")
 		)
 		(pad "2" thru_hole roundrect
-			(at 2.5 0)
+			(at 2.5 0 270)
 			(size 2.54 1.27)
 			(drill 0.63)
 			(layers "*.Cu" "*.Mask")
@@ -3465,12 +3319,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:D_1N5817"
 		(layer "F.Cu")
 		(uuid "96c0c550-7112-4ad7-87dc-d8f743cae00d")
-		(at 217.255 106.22)
+		(at 175 77.5 -90)
 		(property "Reference" "D11"
-			(at 0 -0.5 0)
+			(at 0 -0.5 270)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "67ee0c72-bb19-49a9-af7e-3693bda1279b")
+			(uuid "ead9bfd4-3cc2-4af1-aec9-10e495f4d48c")
 			(effects
 				(font
 					(size 1 1)
@@ -3479,10 +3333,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 270)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2548c249-6e5f-43d0-af90-25ce8249271e")
+			(uuid "701a67e4-378e-45f4-94d8-be6ee2f385d3")
 			(effects
 				(font
 					(size 1 1)
@@ -3491,11 +3345,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://1N5817 THRU 1N5819 N0014 REV.C.pdf"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47b67399-e382-41b7-936e-4e34cc0073e7")
+			(uuid "d8109f64-f04d-45c3-bb1f-c6c86fc939df")
 			(effects
 				(font
 					(size 1 1)
@@ -3504,11 +3358,11 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d9e0ceb-3b0b-44dc-a7a5-fbf9266af75a")
+			(uuid "816cebb8-f746-42d4-b1e6-61529c487da9")
 			(effects
 				(font
 					(size 1 1)
@@ -3517,7 +3371,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/short/b2mjpf39"
-			(at 0 0 0)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3541,6 +3395,16 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
+			(start 4.5 -1.1)
+			(end 4.5 -1.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "b38f971d-9306-4adc-b02d-31870b4a725a")
+		)
+		(fp_line
 			(start 4.25 -1.35)
 			(end 4.75 -1.35)
 			(stroke
@@ -3560,16 +3424,6 @@
 			(layer "F.SilkS")
 			(uuid "c856db15-0c2d-48d2-a6a9-5971eb8820d6")
 		)
-		(fp_line
-			(start 4.5 -1.1)
-			(end 4.5 -1.5)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "b38f971d-9306-4adc-b02d-31870b4a725a")
-		)
 		(fp_rect
 			(start -2.605 -1.36)
 			(end 2.605 1.36)
@@ -3582,7 +3436,7 @@
 			(uuid "8b55d6de-77c3-4bc8-996a-5422cefdfa00")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 -3 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "899f214a-4821-48dc-b5d3-f5159ecd6e3b")
@@ -3594,7 +3448,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -3.305 0 90)
+			(at -3.305 0)
 			(size 2.5 2.5)
 			(drill 0.93)
 			(layers "*.Cu" "*.Mask")
@@ -3604,7 +3458,7 @@
 			(uuid "e70ffd59-94d2-4f76-b721-dc12db42ee9a")
 		)
 		(pad "2" thru_hole circle
-			(at 3.305 0 90)
+			(at 3.305 0)
 			(size 2.5 2.5)
 			(drill 0.93)
 			(layers "*.Cu" "*.Mask")
@@ -3618,7 +3472,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "9baeb9d6-e770-48fd-8513-a6b790439a33")
-		(at 227.77 106.46)
+		(at 267.0415 130.79)
 		(property "Reference" "R10"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -3743,13 +3597,13 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "a1a56c6d-448d-49c0-af95-488c5e4fd447")
-		(at 149.5 99.5)
+		(at 194.5 99.5)
 		(descr "Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py")
 		(tags "mountinghole M3")
 		(property "Reference" "REF**"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
-			(uuid "20c26d9b-b05f-45bc-8d96-34b7e3de6a82")
+			(uuid "f4aa73b1-ab13-4c8e-b353-18272b0ff1f5")
 			(effects
 				(font
 					(size 1 1)
@@ -3760,7 +3614,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
-			(uuid "68953e35-798d-4100-b63b-c93a14aaceb4")
+			(uuid "7d55b93f-5db0-4215-8907-4717dcc918b3")
 			(effects
 				(font
 					(size 1 1)
@@ -3772,7 +3626,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7aa03051-a4d3-40b2-95cd-9b5901284ae1")
+			(uuid "92813ea9-f379-4e52-b357-6fb72473418e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +3637,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b85be548-a25e-40d8-8b89-2a3ee2de7cec")
+			(uuid "4dafa2e6-81c7-4fa1-ab5e-9170d0eded15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,12 +3809,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "cfdb0fa1-e625-4415-8751-553234e04024")
-		(at 127.5 70.5)
+		(at 119.5 78 90)
 		(property "Reference" "D6"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6d0c2605-68a6-4663-9a68-ee9a74c18d94")
+			(uuid "78b89628-3f26-4f3c-b398-9d8ab295ebd0")
 			(effects
 				(font
 					(size 1 1)
@@ -3969,10 +3823,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "80239189-8010-4a42-86e3-4484caf6918b")
+			(uuid "318c0099-8979-4cd7-9aec-192f10de1608")
 			(effects
 				(font
 					(size 1 1)
@@ -3981,11 +3835,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9da13ed4-1c64-44e0-8545-71fb882a2518")
+			(uuid "6727ad3e-de62-42aa-8e73-0232a3f75509")
 			(effects
 				(font
 					(size 1 1)
@@ -3994,11 +3848,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51afc483-88c2-4751-9374-7570237c7a9c")
+			(uuid "8dc36359-fe85-410f-87d6-f2feaed33baf")
 			(effects
 				(font
 					(size 1 1)
@@ -4059,7 +3913,7 @@
 			(uuid "fdde5fad-f459-4c81-8036-76821831f603")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "fcc92d2a-027c-431f-96f9-aa7989572aa5")
@@ -4071,7 +3925,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4082,7 +3936,7 @@
 			(uuid "923d9610-a5ed-42b7-adad-29d3c7c67eb7")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4097,7 +3951,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R_THT_130Ω"
 		(layer "F.Cu")
 		(uuid "d65cee90-b77c-4b42-b28f-98d1facdbf6f")
-		(at 227.77 95.26)
+		(at 267.0415 119.59)
 		(property "Reference" "R6"
 			(at 0 1.7 0)
 			(unlocked yes)
@@ -4222,12 +4076,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:C_THT_10nF"
 		(layer "F.Cu")
 		(uuid "e0bf66a5-2ff9-4a1f-8e62-9d1a8cce955a")
-		(at 216.47 109.83)
+		(at 171 54.5 90)
 		(property "Reference" "C2"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "693f3046-1112-47a0-8f6e-2dff27f90182")
+			(uuid "8f0cb046-b061-4019-9569-91bc480d318f")
 			(effects
 				(font
 					(size 1 1)
@@ -4236,10 +4090,10 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 4 0)
+			(at 0 4 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "066bb04c-935b-4818-bb87-b1c336f37db0")
+			(uuid "15bb2c05-e318-4b50-aa09-886d3b8674a2")
 			(effects
 				(font
 					(size 1 1)
@@ -4248,11 +4102,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://kseries.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9af8b41d-f21c-4c2a-be31-c2b296f9f3a6")
+			(uuid "d7292685-781f-43cc-9782-445d67275db7")
 			(effects
 				(font
 					(size 1 1)
@@ -4261,11 +4115,11 @@
 			)
 		)
 		(property "Description" "Capacitor Ceramic THT 10nF"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "495a210b-c56b-47a5-9417-bb58a05ecf8d")
+			(uuid "1fbb8a2a-24fa-40ff-9686-89d7dc5f0036")
 			(effects
 				(font
 					(size 1 1)
@@ -4274,7 +4128,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/short/rvbfwbvj"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4309,7 +4163,7 @@
 			(uuid "ce71f2d9-b229-4a64-b37b-6fb7c28cc259")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 5.5 0)
+			(at 0 5.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "408706b6-39fe-4939-885a-e85dfe62e1bb")
@@ -4321,7 +4175,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -2.5 0)
+			(at -2.5 0 90)
 			(size 2.54 1.27)
 			(drill 0.58)
 			(layers "*.Cu" "*.Mask")
@@ -4332,7 +4186,7 @@
 			(uuid "0e7f74d4-fba3-4491-8b05-f32e0e440b06")
 		)
 		(pad "2" thru_hole roundrect
-			(at 2.5 0)
+			(at 2.5 0 90)
 			(size 2.54 1.27)
 			(drill 0.58)
 			(layers "*.Cu" "*.Mask")
@@ -4347,12 +4201,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "e386f93a-4775-46d3-ba0f-7e1339bf58d1")
-		(at 127.5 97)
+		(at 159.5 78 90)
 		(property "Reference" "D1"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "12097492-70df-4c2c-a950-9f1c82e1ee92")
+			(uuid "9a0f23b0-59fe-4c2e-8270-9f7f5d029b5d")
 			(effects
 				(font
 					(size 1 1)
@@ -4361,10 +4215,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "4c3e07f0-1b97-46ca-83c4-938c307c73fc")
+			(uuid "42bdebc7-871d-4a0f-8355-d04e6b0988c9")
 			(effects
 				(font
 					(size 1 1)
@@ -4373,11 +4227,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0af3627-8c3f-4604-bd02-751f10127b37")
+			(uuid "a692b90d-70f7-4268-b69d-1980318a4f26")
 			(effects
 				(font
 					(size 1 1)
@@ -4386,11 +4240,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff940626-3df8-44f7-9e93-41cec6b3799a")
+			(uuid "d37ad4dd-48c4-457f-b75a-704b448d3cb0")
 			(effects
 				(font
 					(size 1 1)
@@ -4451,7 +4305,7 @@
 			(uuid "2a35118a-f494-42dc-ae6a-885075f7350f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "aad39b2a-7688-466f-b3e1-3d454d48a2df")
@@ -4463,7 +4317,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4474,7 +4328,7 @@
 			(uuid "96350159-9fa6-41de-969b-3055bbd381d8")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4489,12 +4343,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "ea12f6df-9843-4f9e-9b24-bb6cd497c6dd")
-		(at 146.27 65.5)
+		(at 116 61.23 90)
 		(property "Reference" "D8"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "1bc12ee8-6719-45d1-9d54-9c2bb70467a7")
+			(uuid "5f4af6e4-79ec-4799-acf1-c2ab29dcbdde")
 			(effects
 				(font
 					(size 1 1)
@@ -4503,10 +4357,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "95bdbaf3-9cca-49e1-a337-feaeb3cfe603")
+			(uuid "bf438c0b-9a44-47fa-9912-84583d7e3c82")
 			(effects
 				(font
 					(size 1 1)
@@ -4515,11 +4369,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43aa8e06-d79f-4348-ba61-19f56cb73d79")
+			(uuid "80809d78-3b7b-4da4-b62c-0e63603eb0fa")
 			(effects
 				(font
 					(size 1 1)
@@ -4528,11 +4382,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6b62b98-03d8-499d-9e18-c15dcf78ad94")
+			(uuid "918435ca-e616-4e8c-8db8-de377cc27f44")
 			(effects
 				(font
 					(size 1 1)
@@ -4593,7 +4447,7 @@
 			(uuid "8b5a6897-12e9-4230-bdd9-b9c9d3ed86de")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "60c32558-a3dd-4d6a-8394-dab45238441c")
@@ -4605,7 +4459,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4616,7 +4470,7 @@
 			(uuid "54f60a86-f7b8-48aa-a0b9-42593eee411f")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4631,7 +4485,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:R THT 1KΩ"
 		(layer "F.Cu")
 		(uuid "ec8e4382-b6f1-4036-a06e-19f3f902cb0e")
-		(at 217.22 98.67)
+		(at 217.5 74.5)
 		(property "Reference" "R1"
 			(at 0.5 0 0)
 			(unlocked yes)
@@ -4756,12 +4610,12 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:LED_THT_RED"
 		(layer "F.Cu")
 		(uuid "f87439e8-883a-4106-90bd-00b78e51d166")
-		(at 137.23 89)
+		(at 145.5 66.27 90)
 		(property "Reference" "D10"
-			(at 0 -0.5 0)
+			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "0989e127-6ff4-46a9-9db9-f89b03b298c1")
+			(uuid "549680eb-82b8-4a73-a3b4-494deec1820a")
 			(effects
 				(font
 					(size 1 1)
@@ -4770,10 +4624,10 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 1 0)
+			(at 0 1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6fe38db8-fd57-4980-b096-c9303c8d36d5")
+			(uuid "6187ae8b-7606-4fa8-ac11-25d5eff81408")
 			(effects
 				(font
 					(size 1 1)
@@ -4782,11 +4636,11 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://151051RS11000.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc513adb-7566-4041-92b5-b8b437af317f")
+			(uuid "ed222b8d-f13e-4750-b351-dfef2e284733")
 			(effects
 				(font
 					(size 1 1)
@@ -4795,11 +4649,11 @@
 			)
 		)
 		(property "Description" "LED THT Red"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "adcedb23-7a26-4e0c-aa38-bbab8306376c")
+			(uuid "831dac26-ab9b-443f-acfb-4c9683cf7f17")
 			(effects
 				(font
 					(size 1 1)
@@ -4860,7 +4714,7 @@
 			(uuid "76220f34-0351-4818-b43c-cde8d8b39af8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
+			(at 0 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "17da1b6a-00b0-419d-9ae5-39ee09e148f4")
@@ -4872,7 +4726,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at -1.27 0 90)
+			(at -1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4883,7 +4737,7 @@
 			(uuid "065d19aa-2a9a-48f6-a436-850e532d82f4")
 		)
 		(pad "2" thru_hole roundrect
-			(at 1.27 0 90)
+			(at 1.27 0 180)
 			(size 2.54 1.27)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -4895,10 +4749,162 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "blinking_heart_pcb_keychain_footprints:VR_5V"
+		(layer "B.Cu")
+		(uuid "0226befc-7308-4d65-9c49-0634216989c0")
+		(at 150.986051 82.6 90)
+		(property "Reference" "VR1"
+			(at 5.2 -5.975 270)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "4078fb4b-3fe6-47d1-bf4f-438584c15a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "5V"
+			(at 5.2 -7.475 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "e70c9c08-84ce-4f28-822c-85374ce457f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf"
+			(at 7.5 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8d6653a-a420-4d3f-a419-a83818f4da2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Voltage regulator 5V"
+			(at 7.5 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c3a754cf-6c99-4f8b-9341-253fb272389d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/short/fwh95vp4"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6503f87c-39c2-46d4-800d-927925450bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/966d22cb-a005-48cd-8ff0-a3169e8c05fb")
+		(sheetname "/")
+		(sheetfile "blinking_heart_pcb_keychain.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start 0 0)
+			(end 10.4 -15.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "b722c889-208e-4452-92ac-6ab7d28d3730")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.2 -8.975 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "df648538-92e8-421d-a62b-2f129f998b5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 5.2 -2.8)
+			(size 6 6)
+			(drill 3.85)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8cf2237a-b049-4751-a589-532c1802a754")
+		)
+		(pad "1" thru_hole roundrect
+			(at 2.5 -21.722101)
+			(size 3 1.2)
+			(drill 0.91)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.08333333333)
+			(net "GND")
+			(pinfunction "GND_1")
+			(pintype "passive")
+			(uuid "a0f9ee29-a930-4182-a6fa-c7601fcbe3aa")
+		)
+		(pad "2" thru_hole roundrect
+			(at 5.2 -21.71)
+			(size 3 1.2)
+			(drill 0.91)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.08333333333)
+			(net "+5V")
+			(pinfunction "VOUT_2")
+			(pintype "passive")
+			(uuid "da6a2b64-87f1-44de-b584-e87cfe77f83f")
+		)
+		(pad "3" thru_hole roundrect
+			(at 7.9 -21.71)
+			(size 3 1.2)
+			(drill 0.91)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(roundrect_rratio 0.08333333333)
+			(net "Net-(VR1-VIN)")
+			(pinfunction "VIN_3")
+			(pintype "passive")
+			(uuid "1eba41ed-8085-44b6-9e8e-d3249d42a7ab")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "blinking_heart_pcb_keychain_footprints:B_CR2032"
 		(layer "B.Cu")
 		(uuid "16d18015-e3fc-484d-a64c-af6fe16298ca")
-		(at 188.5 99.5 180)
+		(at 187.45 69.5 180)
 		(property "Reference" "B1"
 			(at 0 -3.5 0)
 			(unlocked yes)
@@ -5023,7 +5029,7 @@
 	(footprint "blinking_heart_pcb_keychain_footprints:B_CR2032"
 		(layer "B.Cu")
 		(uuid "26b2a50a-5076-4438-92a4-ae7826ad3a49")
-		(at 189 120 180)
+		(at 187.5 86 180)
 		(property "Reference" "B2"
 			(at 0 -3.5 0)
 			(unlocked yes)
@@ -5147,7 +5153,7 @@
 	)
 	(gr_rect
 		(start 100 50)
-		(end 155 105)
+		(end 200 105)
 		(radius 5)
 		(stroke
 			(width 0.05)
