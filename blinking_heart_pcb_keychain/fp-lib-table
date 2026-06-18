@@ -2,4 +2,7 @@
 	(version 7)
 	(lib (name "blinking_heart_pcb_keychain_footprints") (type "KiCad") (uri "${KIPRJMOD}/blinking_heart_pcb_keychain_footprints.pretty") (options "") (descr ""))
 	(lib (name "blinking_heart_pcb_keychain_footprints") (type "KiCad") (uri "${KIPRJMOD}/blinking_heart_pcb_keychain_footprints.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "C:/Users/aetarant/Downloads/MX1A_E1NW/KiCADv6/footprints.pretty") (options "") (descr ""))
+	(lib (name "MX1A_E1NW") (type "KiCad") (uri "C:/Users/aetarant/Downloads/MX1A_E1NW.pretty") (options "") (descr ""))
+	(lib (name "KiCADv6") (type "KiCad") (uri "C:/Users/aetarant/Downloads/MX1A_E1NW/KiCADv6.pretty") (options "") (descr ""))
 )
